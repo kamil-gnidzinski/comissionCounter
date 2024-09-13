@@ -1,7 +1,12 @@
 # comissionCounter
 This app calculates commission based on already made transactions.
-To run functionality you need to execute this line inside main project folder:
+
+
+Instruction:
+After you pull the code run:
+composer install
+And then:
 php main.php input.txt  
 
-To run tests, you need to execute this line inside main project folder:
+To run tests, you need to execute this line:
 vendor/bin/phpunit --color='always' 
